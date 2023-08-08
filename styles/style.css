@@ -1022,9 +1022,8 @@ position: relative;
 }
 
 .clients{
-    position: relative;
     margin-top: 110px;
-    height: 1210px;
+    height: 1150px;
 }
 
 .clients-bg{
@@ -1179,24 +1178,16 @@ position: relative;
     flex-shrink: 0;
 }
 
-.questions{
-    display: flex;
-    justify-content: center;
-    height: 445.319px;
-    position: relative;
-    }
-
-.form-questions{
-    position: absolute;
+.form-questions {
+    z-index: 1; 
     padding: 34px 181px;
-    margin-top: -382px;
+    margin-top: -222px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     width: 883px;
     height: 445.319px;
-    flex-shrink: 0;
     background-color: black;
 }
 
@@ -1209,7 +1200,7 @@ position: relative;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 138.6%; /* 27.72px */
+    line-height: 138.6%; 
     text-transform: uppercase;
 }
 
@@ -1217,9 +1208,7 @@ position: relative;
     
     display: flex;
     flex-direction: column;
-    
-    
-        
+            
 }
 
 .name-phone-questions{
@@ -1262,7 +1251,6 @@ position: relative;
     
 }
 
-
 .button-question-submit{
     bottom: 34px;
     width: 200px;
@@ -1280,4 +1268,58 @@ position: relative;
 }
 .label_questions{
     margin-bottom: 20px;
+}
+
+.maps{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+    height: 1000.898px;
+    background-image: url(../images/image7.2.png);
+    background-size: cover;
+}
+
+.maps-overlay{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.90) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    
+}
+
+.map{
+    margin-top: 86px;
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.map-title{
+    display: flex;
+    color: #E3B873;
+    text-align: center;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 27.72px */
+    text-transform: uppercase;
+}
+
+.logo-social{
+    display: flex;
+}
+
+.map-img{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
