@@ -1278,6 +1278,8 @@ position: relative;
     margin-top: -100px;
     height: 1000.898px;
     background-image: url(../images/image7.2.png);
+    background-repeat: no-repeat;
+    background-position: right;
     background-size: cover;
 }
 
@@ -1321,5 +1323,39 @@ position: relative;
 .map-img{
     display: flex;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+.footer {
+    background-color: black;
+    text-transform: uppercase;
+    height: 133px;
+}
+
+.footer-navigation {
+    list-style: none;
+    display: flex;
+}
+.footer-navigation_item {
+    
+    color: #E3B873;
+    font-size: 11px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 47px;
+}
+
+.footer-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 133px;
+    align-items: center;
 }
