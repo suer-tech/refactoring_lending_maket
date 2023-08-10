@@ -1,0 +1,153 @@
+/* Стили для экранов менее 1300px */
+@media (max-width: 1300px) {
+    body {
+        width: 100%;
+        
+    }
+         
+    .header {
+        width: 100%;
+        background-color: black;
+        text-transform: uppercase;
+        
+    }
+    .header-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 83px;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+      
+        
+    }
+
+    .completed-container {
+        padding-bottom: 416px;
+        padding-top: 123px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+ 
+    .free{
+        display: none;
+    
+    }
+    
+    
+
+    .types_of_repair{
+        margin-top: 85.85px;
+        height: 100%;
+    }
+
+    .types_container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 31px;
+    }
+
+    .types_items {
+        margin-top: 31px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .types_item {
+        margin-bottom: 150px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .item_text_container{
+        left: -1px;
+        background: #FFF;
+        box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03); 
+        
+        
+        
+    }
+
+    .fantasies {
+        background-image: none;
+        
+        
+        
+        }
+        
+        .fantasies-overlay {
+            display: none;
+        }
+        
+        .fantas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        
+        .fanta-left {
+            margin: 0;
+            height: auto;
+            display: flex;
+            position: relative;
+            
+        }
+        
+        .fanta_tite {
+            margin-bottom: 50px;
+            color: #E3B873;
+            font-family: Yeseva One;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 138.6%; /* 37.422px */
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        .fanta-right {
+            display: none;
+        }
+        .fanta-item1 {
+            display: none;
+        }
+
+        .fanta-center {
+            
+            margin: auto;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-self:center;
+            justify-content:center;
+            
+        }
+        
+        .fantas-img{
+            display: flex;
+        }
+
+        .fanta-center-img1{
+            width: 340px;
+            height: 242px;
+        }
+
+        .fanta-center-img2{
+            display: none;
+        }
+}   
+
+
+

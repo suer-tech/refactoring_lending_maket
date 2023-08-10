@@ -92,7 +92,7 @@ body * {
 }
 
 .container {
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
     
 }
@@ -212,7 +212,7 @@ body * {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
+    text-decoration: none;
 }
 
 .completed {
@@ -957,8 +957,8 @@ position: relative;
 
 .fanta-left {
     margin-top: 137px;
-    
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 411px;
     height: 920px;
@@ -975,8 +975,10 @@ position: relative;
     text-transform: uppercase;
 }
 
-.fanta-items  a {
-    top: 74px;
+.fanta-items {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 150px;
     height: 230%;
     list-style: none;
     display: flex;
@@ -988,7 +990,7 @@ position: relative;
     font-weight: 400;
     line-height: 190.96%; /* 38.192px */
 }
-.fanta-item1  a {
+.fanta-item1 {
     color: #E3B873;
 }
 
@@ -1009,6 +1011,15 @@ position: relative;
     align-self:flex-start;
     justify-content: space-between;
     
+}
+
+.fanta-center-img1{
+    background-image: url("../images/image\ 50.jpg");
+    background-size: cover;
+    background-position: center center; /* Центрирование изображения */
+    width: 354px;
+    height: 557.883px;
+   
 }
 
 .fanta-right {
