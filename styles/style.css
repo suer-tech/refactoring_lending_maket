@@ -527,9 +527,22 @@ body * {
     flex-direction: row;
     justify-content: space-between;
     
-
 }
 #Input {
+    margin-right: 50px;
+    width: 231px;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    color:  rgba(54, 54, 54, 1);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; 
+}
+
+#Input_name {
     margin-right: 50px;
     width: 231px;
     display: flex;
@@ -559,7 +572,6 @@ body * {
     width: 200px;
     height: 51px;
     background-color: #E3B873;
-    color: white;
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
     outline: 0;
     border: 0;
