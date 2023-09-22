@@ -19,16 +19,11 @@
         align-items: center;
     }
 
-    .header-navigation_item {
+    .header-navigation_item, .button {
+        display: none;
+    }
+
     
-        display: none;
-    }
-
-    .button {
-        display: none;
-        
-    }
-
     .phone{
         color: #FFF;
         text-align: right;
